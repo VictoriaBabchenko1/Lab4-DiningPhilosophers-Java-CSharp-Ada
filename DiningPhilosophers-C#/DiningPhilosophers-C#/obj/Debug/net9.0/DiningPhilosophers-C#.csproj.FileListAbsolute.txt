@@ -1,0 +1,14 @@
+/Users/viktoriababchenko/pet-projects/Parallel-computational-processes/lab4/DiningPhilosophers-C#/DiningPhilosophers-C#/bin/Debug/net9.0/DiningPhilosophers-C#
+/Users/viktoriababchenko/pet-projects/Parallel-computational-processes/lab4/DiningPhilosophers-C#/DiningPhilosophers-C#/bin/Debug/net9.0/DiningPhilosophers-C#.deps.json
+/Users/viktoriababchenko/pet-projects/Parallel-computational-processes/lab4/DiningPhilosophers-C#/DiningPhilosophers-C#/bin/Debug/net9.0/DiningPhilosophers-C#.runtimeconfig.json
+/Users/viktoriababchenko/pet-projects/Parallel-computational-processes/lab4/DiningPhilosophers-C#/DiningPhilosophers-C#/bin/Debug/net9.0/DiningPhilosophers-C#.dll
+/Users/viktoriababchenko/pet-projects/Parallel-computational-processes/lab4/DiningPhilosophers-C#/DiningPhilosophers-C#/bin/Debug/net9.0/DiningPhilosophers-C#.pdb
+/Users/viktoriababchenko/pet-projects/Parallel-computational-processes/lab4/DiningPhilosophers-C#/DiningPhilosophers-C#/obj/Debug/net9.0/DiningPhilosophers-C#.GeneratedMSBuildEditorConfig.editorconfig
+/Users/viktoriababchenko/pet-projects/Parallel-computational-processes/lab4/DiningPhilosophers-C#/DiningPhilosophers-C#/obj/Debug/net9.0/DiningPhilosophers-C#.AssemblyInfoInputs.cache
+/Users/viktoriababchenko/pet-projects/Parallel-computational-processes/lab4/DiningPhilosophers-C#/DiningPhilosophers-C#/obj/Debug/net9.0/DiningPhilosophers-C#.AssemblyInfo.cs
+/Users/viktoriababchenko/pet-projects/Parallel-computational-processes/lab4/DiningPhilosophers-C#/DiningPhilosophers-C#/obj/Debug/net9.0/DiningPhilosophers-C#.csproj.CoreCompileInputs.cache
+/Users/viktoriababchenko/pet-projects/Parallel-computational-processes/lab4/DiningPhilosophers-C#/DiningPhilosophers-C#/obj/Debug/net9.0/DiningPhilosophers-C#.dll
+/Users/viktoriababchenko/pet-projects/Parallel-computational-processes/lab4/DiningPhilosophers-C#/DiningPhilosophers-C#/obj/Debug/net9.0/refint/DiningPhilosophers-C#.dll
+/Users/viktoriababchenko/pet-projects/Parallel-computational-processes/lab4/DiningPhilosophers-C#/DiningPhilosophers-C#/obj/Debug/net9.0/DiningPhilosophers-C#.pdb
+/Users/viktoriababchenko/pet-projects/Parallel-computational-processes/lab4/DiningPhilosophers-C#/DiningPhilosophers-C#/obj/Debug/net9.0/DiningPhilosophers-C#.genruntimeconfig.cache
+/Users/viktoriababchenko/pet-projects/Parallel-computational-processes/lab4/DiningPhilosophers-C#/DiningPhilosophers-C#/obj/Debug/net9.0/ref/DiningPhilosophers-C#.dll
