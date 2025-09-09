@@ -22,7 +22,7 @@ public class DiningPhilosophers {
             philosophers[i].start();
         }
 
-        // ✅ Очікування завершення роботи всіх потоків
+        // Очікування завершення роботи всіх потоків
         for (Philosopher philosopher : philosophers) {
             try {
                 philosopher.join();

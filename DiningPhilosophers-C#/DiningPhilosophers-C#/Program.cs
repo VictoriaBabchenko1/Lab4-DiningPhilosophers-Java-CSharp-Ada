@@ -82,7 +82,7 @@ class Program
             philosophers[i].Start();
         }
 
-        // ✅ Очікування завершення роботи всіх потоків
+        // Очікування завершення роботи всіх потоків
         foreach (var t in philosophers)
             t.Join();
 
