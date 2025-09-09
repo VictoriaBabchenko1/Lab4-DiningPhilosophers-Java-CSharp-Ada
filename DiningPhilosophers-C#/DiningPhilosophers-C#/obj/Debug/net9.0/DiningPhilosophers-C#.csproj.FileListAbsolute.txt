@@ -12,3 +12,4 @@
 /Users/viktoriababchenko/pet-projects/Parallel-computational-processes/lab4/DiningPhilosophers-C#/DiningPhilosophers-C#/obj/Debug/net9.0/DiningPhilosophers-C#.pdb
 /Users/viktoriababchenko/pet-projects/Parallel-computational-processes/lab4/DiningPhilosophers-C#/DiningPhilosophers-C#/obj/Debug/net9.0/DiningPhilosophers-C#.genruntimeconfig.cache
 /Users/viktoriababchenko/pet-projects/Parallel-computational-processes/lab4/DiningPhilosophers-C#/DiningPhilosophers-C#/obj/Debug/net9.0/ref/DiningPhilosophers-C#.dll
+/Users/viktoriababchenko/pet-projects/Parallel-computational-processes/lab4/DiningPhilosophers-C#/DiningPhilosophers-C#/obj/Debug/net9.0/DiningPhilosophers-C#.sourcelink.json

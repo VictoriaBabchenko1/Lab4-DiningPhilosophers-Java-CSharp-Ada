@@ -20,6 +20,17 @@ public class DiningPhilosophersWithWaiter {
             philosophers[i] = new Philosopher(i, left, right, waiter);
             philosophers[i].start();
         }
+
+        // Очікування завершення всіх потоків
+        for (Philosopher philosopher : philosophers) {
+            try {
+                philosopher.join();
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+            }
+        }
+
+        System.out.println("All philosophers have finished.");
     }
 }
 

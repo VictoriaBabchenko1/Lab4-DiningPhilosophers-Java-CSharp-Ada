@@ -3,10 +3,12 @@ public class DiningPhilosophers {
         Fork[] forks = new Fork[5];
         Philosopher[] philosophers = new Philosopher[5];
 
+        // Створення виделок
         for (int i = 0; i < 5; i++) {
             forks[i] = new Fork(i);
         }
 
+        // Створення і запуск філософів
         for (int i = 0; i < 5; i++) {
             Fork left = forks[i];
             Fork right = forks[(i + 1) % 5];
@@ -19,6 +21,17 @@ public class DiningPhilosophers {
 
             philosophers[i].start();
         }
+
+        // ✅ Очікування завершення роботи всіх потоків
+        for (Philosopher philosopher : philosophers) {
+            try {
+                philosopher.join();
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+            }
+        }
+
+        System.out.println("All philosophers have finished eating.");
     }
 }
 
@@ -29,8 +42,19 @@ class Fork {
         this.id = id;
     }
 
-    public synchronized void pickUp() {}
-    public synchronized void putDown() {}
+    public int getId() {
+        return id;
+    }
+
+    // синхронізований метод взяття виделки
+    public synchronized void pickUp(int philosopherId) {
+        System.out.println("Philosopher " + philosopherId + " picked up fork " + id);
+    }
+
+    // синхронізований метод покладання виделки
+    public synchronized void putDown(int philosopherId) {
+        System.out.println("Philosopher " + philosopherId + " put down fork " + id);
+    }
 }
 
 class Philosopher extends Thread {
@@ -53,13 +77,30 @@ class Philosopher extends Thread {
 
     private void think() {
         System.out.println("Philosopher " + id + " is thinking.");
+        sleepRandom();
     }
 
     private void eat() {
         synchronized (left) {
+            left.pickUp(id);
             synchronized (right) {
-                System.out.println("Philosopher " + id + " is eating.");
+                right.pickUp(id);
+
+                System.out.println("Philosopher " + id + " is eating using forks " +
+                                   left.getId() + " and " + right.getId() + ".");
+                sleepRandom();
+
+                right.putDown(id);
             }
+            left.putDown(id);
+        }
+    }
+
+    private void sleepRandom() {
+        try {
+            Thread.sleep((long) (Math.random() * 100));
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
         }
     }
 }
